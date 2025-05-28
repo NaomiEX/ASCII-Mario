@@ -5,7 +5,7 @@ Turn-based, top-down, rogue-like game inspired by the Super Mario Bros. games.
 
 > The intent of this project is to apply **object oriented principles** to create a fun, scalable game.
 
-[gameplay video]
+![gameplay video](assets/ASCII_Mario_v5.gif)
 
 ## Premise
 You play as the titular Mario (`m`) exploring the world, stomping on Goombas and Kappas, jumping on walls and trees, getting power-ups, and buying items from the local merchant, Toad!
@@ -52,6 +52,7 @@ Of course, there are many other entities, both hostile and friendly, roaming aro
 - A destroyed Koopa shell drops a [*Super Mushroom*](#powerups) (`*`).
 
 ### [*Friendly*] Toad (`T`)
+![Toad](assets/toad_2.png)
 - He sets up shop in the middle of the map, protected by brick walls on all sides.
 - He sells 3 items in his shop:
     - Wrench ($30)
