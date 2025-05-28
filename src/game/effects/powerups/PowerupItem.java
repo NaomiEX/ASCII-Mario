@@ -1,8 +1,8 @@
 package game.effects.powerups;
 
-import edu.monash.fit2099.engine.actors.Actor;
-import edu.monash.fit2099.engine.items.Item;
-import edu.monash.fit2099.engine.items.PickUpItemAction;
+import engine.actors.Actor;
+import engine.items.Item;
+import engine.items.PickUpItemAction;
 import game.effects.RecurringEffectCapable;
 
 public abstract class PowerupItem extends Item implements RecurringEffectCapable {

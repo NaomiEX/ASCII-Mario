@@ -1,6 +1,6 @@
 package game.items;
 
-import edu.monash.fit2099.engine.weapons.WeaponItem;
+import engine.weapons.WeaponItem;
 
 public class Wrench extends WeaponItem {
     public static final String NAME = "Wrench";

@@ -1,6 +1,6 @@
 package game.ground.jumpableground;
 
-import edu.monash.fit2099.engine.positions.Ground;
+import engine.positions.Ground;
 
 import java.util.ArrayList;
 import java.util.List;

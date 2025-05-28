@@ -1,12 +1,12 @@
 package game.npcs;
 
-import edu.monash.fit2099.engine.actions.Action;
-import edu.monash.fit2099.engine.actions.ActionList;
-import edu.monash.fit2099.engine.actions.DoNothingAction;
-import edu.monash.fit2099.engine.actors.Actor;
-import edu.monash.fit2099.engine.displays.Display;
-import edu.monash.fit2099.engine.items.Item;
-import edu.monash.fit2099.engine.positions.GameMap;
+import engine.actions.Action;
+import engine.actions.ActionList;
+import engine.actions.DoNothingAction;
+import engine.actors.Actor;
+import engine.displays.Display;
+import engine.items.Item;
+import engine.positions.GameMap;
 import game.actions.SpeakAction;
 import game.actions.TradeAction;
 import game.items.currency.Coin;
@@ -21,9 +21,9 @@ public class Toad extends Actor {
     private static final Character DISPLAY_CHARACTER = 'O';
     private static final int HIT_POINTS = 1;
     private final Map<Item, Coin> wares = new HashMap<>();
-    private static final int POWER_STAR_COST = 600;
-    private static final int SUPER_MUSHROOM_COST = 400;
-    private static final int WRENCH_COST = 200;
+    private static final int POWER_STAR_COST = 60;
+    private static final int SUPER_MUSHROOM_COST = 40;
+    private static final int WRENCH_COST = 20;
 
     /**
      * Constructor.

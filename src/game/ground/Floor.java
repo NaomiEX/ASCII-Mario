@@ -1,7 +1,7 @@
 package game.ground;
 
-import edu.monash.fit2099.engine.actors.Actor;
-import edu.monash.fit2099.engine.positions.Ground;
+import engine.actors.Actor;
+import engine.positions.Ground;
 import game.npcs.enemies.Enemy;
 import game.npcs.enemies.EnemyManager;
 

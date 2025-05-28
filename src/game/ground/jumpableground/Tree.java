@@ -1,6 +1,6 @@
 package game.ground.jumpableground;
 
-import edu.monash.fit2099.engine.positions.Location;
+import engine.positions.Location;
 import game.SpawnCapable;
 import game.ground.Dirt;
 import game.reset.Resettable;

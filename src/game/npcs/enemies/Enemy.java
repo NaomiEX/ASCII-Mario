@@ -1,13 +1,13 @@
 package game.npcs.enemies;
 
-import edu.monash.fit2099.engine.actions.Action;
-import edu.monash.fit2099.engine.actions.ActionList;
-import edu.monash.fit2099.engine.actions.DoNothingAction;
-import edu.monash.fit2099.engine.actors.Actor;
-import edu.monash.fit2099.engine.displays.Display;
-import edu.monash.fit2099.engine.positions.Exit;
-import edu.monash.fit2099.engine.positions.GameMap;
-import edu.monash.fit2099.engine.positions.Location;
+import engine.actions.Action;
+import engine.actions.ActionList;
+import engine.actions.DoNothingAction;
+import engine.actors.Actor;
+import engine.displays.Display;
+import engine.positions.Exit;
+import engine.positions.GameMap;
+import engine.positions.Location;
 import game.Priorities;
 import game.reset.Resettable;
 import game.Status;
@@ -81,10 +81,10 @@ public abstract class Enemy extends Actor implements Resettable {
             this.addBehaviour(new FollowBehaviour(destinationActor), Priorities.MEDIUM_PRIORITY);
         }
         Action chosenAction = new DoNothingAction();
-        //TODO: printing only for debugging purposes
-        if (destinationActor != null) display.println("Goomba behaviours: ");
+        // TODO: printing only for debugging purposes
+        // if (destinationActor != null) display.println("Goomba behaviours: ");
         for(Behaviour behaviour : behaviours.values()) {
-            if (destinationActor != null) display.println(behaviour.toString());
+            // if (destinationActor != null) display.println(behaviour.toString());
             Action action = behaviour.getAction(this, map);
             if (action != null) {
                 chosenAction= action;

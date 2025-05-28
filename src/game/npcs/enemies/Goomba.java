@@ -1,17 +1,16 @@
 package game.npcs.enemies;
 
 
-import edu.monash.fit2099.engine.actions.Action;
-import edu.monash.fit2099.engine.actions.ActionList;
-import edu.monash.fit2099.engine.actions.DoNothingAction;
-import edu.monash.fit2099.engine.displays.Display;
-import edu.monash.fit2099.engine.positions.GameMap;
-import edu.monash.fit2099.engine.positions.Location;
-import edu.monash.fit2099.engine.weapons.IntrinsicWeapon;
+import engine.actions.Action;
+import engine.actions.ActionList;
+import engine.actions.DoNothingAction;
+import engine.displays.Display;
+import engine.positions.GameMap;
+import engine.positions.Location;
+import engine.weapons.IntrinsicWeapon;
 import game.RandomDespawnable;
 import game.Status;
 import game.Utils;
-import game.actions.DespawnAction;
 
 /**
  * A little fungus guy.

@@ -3,11 +3,11 @@ package game.npcs.behaviours;
 import java.util.ArrayList;
 import java.util.Random;
 
-import edu.monash.fit2099.engine.actions.Action;
-import edu.monash.fit2099.engine.actors.Actor;
-import edu.monash.fit2099.engine.positions.Exit;
-import edu.monash.fit2099.engine.positions.GameMap;
-import edu.monash.fit2099.engine.positions.Location;
+import engine.actions.Action;
+import engine.actors.Actor;
+import engine.positions.Exit;
+import engine.positions.GameMap;
+import engine.positions.Location;
 
 public class WanderBehaviour extends Action implements Behaviour {
 	

@@ -1,6 +1,6 @@
 package game.ground.jumpableground;
 
-import edu.monash.fit2099.engine.positions.Location;
+import engine.positions.Location;
 import game.Utils;
 import game.npcs.enemies.Goomba;
 import game.Growable;

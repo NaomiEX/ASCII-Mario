@@ -1,16 +1,15 @@
 package game.actions;
 
-import edu.monash.fit2099.engine.actions.Action;
-import edu.monash.fit2099.engine.actors.Actor;
-import edu.monash.fit2099.engine.items.Item;
-import edu.monash.fit2099.engine.positions.GameMap;
+import engine.actions.Action;
+import engine.actors.Actor;
+import engine.items.Item;
+import engine.positions.GameMap;
 import game.Utils;
 import game.items.Wrench;
 import game.npcs.Monologue;
 
 import java.util.Arrays;
 import java.util.List;
-import java.util.Map;
 
 public class SpeakAction extends Action {
     private final Actor speakTarget;

@@ -1,14 +1,14 @@
 package game.effects.powerups;
 
-import edu.monash.fit2099.engine.actors.Actor;
-import edu.monash.fit2099.engine.displays.Display;
-import edu.monash.fit2099.engine.items.Item;
-import edu.monash.fit2099.engine.positions.Exit;
-import edu.monash.fit2099.engine.positions.GameMap;
-import edu.monash.fit2099.engine.positions.Ground;
-import edu.monash.fit2099.engine.positions.Location;
-import edu.monash.fit2099.engine.weapons.Weapon;
-import edu.monash.fit2099.engine.weapons.WeaponItem;
+import engine.actors.Actor;
+import engine.displays.Display;
+import engine.items.Item;
+import engine.positions.Exit;
+import engine.positions.GameMap;
+import engine.positions.Ground;
+import engine.positions.Location;
+import engine.weapons.Weapon;
+import engine.weapons.WeaponItem;
 import game.Status;
 import game.effects.EffectManager;
 import game.effects.RecurringActorEffectCapable;

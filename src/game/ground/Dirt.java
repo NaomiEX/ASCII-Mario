@@ -1,6 +1,6 @@
 package game.ground;
 
-import edu.monash.fit2099.engine.positions.Ground;
+import engine.positions.Ground;
 import game.Status;
 
 /**

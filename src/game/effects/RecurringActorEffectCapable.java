@@ -1,8 +1,8 @@
 package game.effects;
 
-import edu.monash.fit2099.engine.actors.Actor;
-import edu.monash.fit2099.engine.displays.Display;
-import edu.monash.fit2099.engine.positions.GameMap;
+import engine.actors.Actor;
+import engine.displays.Display;
+import engine.positions.GameMap;
 import game.reset.Resettable;
 
 public interface RecurringActorEffectCapable extends Resettable {

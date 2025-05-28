@@ -1,15 +1,10 @@
 package game.items;
 
-import edu.monash.fit2099.engine.actions.Action;
-import edu.monash.fit2099.engine.actors.Actor;
-import edu.monash.fit2099.engine.items.Item;
-import edu.monash.fit2099.engine.items.PickUpItemAction;
-import edu.monash.fit2099.engine.positions.GameMap;
+import engine.actors.Actor;
+import engine.items.Item;
+import engine.items.PickUpItemAction;
+import engine.positions.GameMap;
 import game.actions.ConsumeItemAction;
-import game.items.Consumable;
-
-import java.util.ArrayList;
-import java.util.List;
 
 public abstract class ConsumableItem extends Item implements Consumable {
     private final boolean droppable;

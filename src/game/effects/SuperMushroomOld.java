@@ -1,11 +1,11 @@
 //package game.powerup;
 //
-//import edu.monash.fit2099.engine.actions.Action;
-//import edu.monash.fit2099.engine.actors.Actor;
-//import edu.monash.fit2099.engine.displays.Display;
-//import edu.monash.fit2099.engine.items.PickUpItemAction;
-//import edu.monash.fit2099.engine.positions.GameMap;
-//import edu.monash.fit2099.engine.positions.Location;
+//import engine.actions.Action;
+//import engine.actors.Actor;
+//import engine.displays.Display;
+//import engine.items.PickUpItemAction;
+//import engine.positions.GameMap;
+//import engine.positions.Location;
 //import game.reset.Resettable;
 //import game.Status;
 //import game.actions.ConsumeItemAction;

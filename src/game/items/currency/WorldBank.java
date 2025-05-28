@@ -1,7 +1,7 @@
 package game.items.currency;
 
-import edu.monash.fit2099.engine.actors.Actor;
-import edu.monash.fit2099.engine.items.Item;
+import engine.actors.Actor;
+import engine.items.Item;
 
 import java.util.*;
 

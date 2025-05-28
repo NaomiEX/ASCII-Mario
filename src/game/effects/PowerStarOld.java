@@ -1,15 +1,15 @@
 //package game.powerup;
 //
-//import edu.monash.fit2099.engine.actions.Action;
-//import edu.monash.fit2099.engine.actors.Actor;
-//import edu.monash.fit2099.engine.displays.Display;
-//import edu.monash.fit2099.engine.items.DropItemAction;
-//import edu.monash.fit2099.engine.items.Item;
-//import edu.monash.fit2099.engine.items.PickUpItemAction;
-//import edu.monash.fit2099.engine.positions.GameMap;
-//import edu.monash.fit2099.engine.positions.Location;
-//import edu.monash.fit2099.engine.weapons.Weapon;
-//import edu.monash.fit2099.engine.weapons.WeaponItem;
+//import engine.actions.Action;
+//import engine.actors.Actor;
+//import engine.displays.Display;
+//import engine.items.DropItemAction;
+//import engine.items.Item;
+//import engine.items.PickUpItemAction;
+//import engine.positions.GameMap;
+//import engine.positions.Location;
+//import engine.weapons.Weapon;
+//import engine.weapons.WeaponItem;
 //import game.actions.ConsumeItemAction;
 //import game.ground.Dirt;
 //import game.ground.highground.HighGround;

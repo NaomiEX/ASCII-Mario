@@ -1,7 +1,7 @@
 package game.items;
 
-import edu.monash.fit2099.engine.actors.Actor;
-import edu.monash.fit2099.engine.positions.GameMap;
+import engine.actors.Actor;
+import engine.positions.GameMap;
 
 public interface Consumable {
 

@@ -1,6 +1,6 @@
 package game.npcs.enemies;
 
-import edu.monash.fit2099.engine.actors.Actor;
+import engine.actors.Actor;
 
 import java.util.ArrayList;
 import java.util.Collections;

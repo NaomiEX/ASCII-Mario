@@ -1,6 +1,6 @@
 package game.ground.jumpableground;
 
-import edu.monash.fit2099.engine.positions.Location;
+import engine.positions.Location;
 import game.Growable;
 import game.Utils;
 import game.items.currency.Coin;
