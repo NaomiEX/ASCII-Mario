@@ -5,7 +5,7 @@ Turn-based, top-down, rogue-like game inspired by the Super Mario Bros. games.
 
 > The intent of this project is to apply **object oriented principles** to create a fun, scalable game.
 
-![gameplay video](assets/ASCII_Mario_v5.gif)
+![gameplay video](assets/ASCII_Mario_v5_compressed.gif)
 
 ## Premise
 You play as the titular Mario (`m`) exploring the world, stomping on Goombas and Kappas, jumping on walls and trees, getting power-ups, and buying items from the local merchant, Toad!
