@@ -70,6 +70,7 @@ Of course, there are many other entities, both hostile and friendly, roaming aro
 
 - The world is composed of mostly dirt (`.`) which Mario can directly walk on.  
 - However, there are also walls (`#`) which Mario must jump on to move past. There is a `90%` chance that Mario succeeds at wall jumps but if he's out of practice he could miss the jump and fall. This deals `10 DMG` to Mario, *OUCH!*
+- As you progress, the world will become more and more lively as new trees sprout, new enemies spawn, and new coins drop.
 
 ### Trees
 The world would be pretty boring without some greenery, so the world contains dynamic trees with growth cycles:
